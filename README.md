@@ -12,7 +12,7 @@ A simple Rust application demonstrating MySQL database connectivity using SQLx. 
 
 - Rust 2024 Edition
 - SQLx 0.8.5
-- MySQL 8.0
+- MySQL 8.0.41
 - Docker & Docker Compose
 - tokio (async runtime)
 
