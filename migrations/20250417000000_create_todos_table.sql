@@ -1,0 +1,6 @@
+-- マイグレーション: todosテーブルの作成
+CREATE TABLE IF NOT EXISTS todos (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    description TEXT NOT NULL,
+    done BOOLEAN NOT NULL
+);
