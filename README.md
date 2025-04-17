@@ -91,7 +91,3 @@ Tests automatically run migrations and use fixtures to test each functionality.
 ## License
 
 MIT
-
-## Creation Date
-
-April 17, 2025
