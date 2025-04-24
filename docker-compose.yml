@@ -2,8 +2,12 @@ version: '3.8'
 
 services:
   mysql:
-    image: mysql:8.0.41
     container_name: sqlx-mysql-demo-db
+    build:
+      context: .
+      dockerfile: ./docker/db/Dockerfile
+      platforms:
+        - linux/amd64
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: testdb
